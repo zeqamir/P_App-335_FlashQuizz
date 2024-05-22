@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlashQuizz.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="FlashQuizz" FontSize="Large" HorizontalOptions="Center" />
+        <Button Text="Mes cours" Clicked="OnMesCoursClicked" />
+        <Button Text="Découvrir" Clicked="OnDecouvrirClicked" />
+        <Button Text="Paramètres" Clicked="OnParametresClicked" />
+        <Button Text="Compte" Clicked="OnCompteClicked" />
+    </StackLayout>
+
+</ContentPage>
